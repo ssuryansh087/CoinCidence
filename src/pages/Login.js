@@ -96,11 +96,9 @@ function Login() {
         <div className="rightContainer">
           <img src={Logo} id="Logo" alt="Logo" />
           <h1 id="newHere">New Here?</h1>
-          <p id="SignUpText">Sign Up to discover more from BelleZa!</p>
-          <p className="offers">-Save Your Favorite Products</p>
-          <p className="offers">
-            -Receive Personalized Recommendations, Offers
-          </p>
+          <p id="SignUpText">Sign Up to explore more from CoinCidence!</p>
+          <p className="offers">-Save and Track Your Learning Progress</p>
+          <p className="offers">-Earn Certifications in Finance Skills</p>
           <p className="offers">& Much More!</p>
           <Link to="/signup">
             <button type="submit" id="signUpButton">

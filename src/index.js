@@ -7,6 +7,8 @@ import { PersistGate } from "redux-persist/integration/react";
 import store, { persistor } from "./redux/store";
 import App from "./App";
 import Login from "./pages/Login";
+import SignUp from "./pages/SignUp";
+import Form from "./pages/Form";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -18,6 +20,14 @@ const router = createBrowserRouter([
   {
     path: "/login",
     element: <Login />,
+  },
+  {
+    path: "/signup",
+    element: <SignUp />,
+  },
+  {
+    path: "/form",
+    element: <Form />,
   },
 ]);
 
