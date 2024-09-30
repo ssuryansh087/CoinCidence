@@ -1,0 +1,236 @@
+.document-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* Almost black semi-transparent background */
+    z-index: 999;
+  }
+  
+  .document-detail-content {
+    width: 60%;
+    height: 90%;
+    background-color: #000; /* Black background */
+    border-radius: 20px;
+    padding: 25px;
+    color: #fff; /* White text */
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0px 10px 30px rgba(0, 255, 0, 0.4); /* Green glow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .document-detail-content:hover {
+    transform: scale(1.03); /* Slight zoom-in on hover */
+    box-shadow: 0px 15px 45px rgba(0, 255, 0, 0.7); /* Stronger green glow on hover */
+  }
+  
+  h2 {
+    color: #00FF00; /* Bright green for the title */
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .document-image {
+    width: 50%; /* Reduce image size to 50% of the container width */
+    height: auto;
+    border-radius: 15px;
+    margin: 20px 0;
+    box-shadow: 0px 0px 20px rgba(0, 255, 0, 0.3); /* Green glow around image */
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  strong {
+    color: #00FF00; /* Green for labels like "Example", "Overview", etc. */
+  }
+  
+  .close-button {
+    background-color: #00FF00; /* Bright green button */
+    color: #000; /* Black text on the button */
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 5px 15px rgba(0, 255, 0, 0.5); /* Shadow on button */
+  }
+  
+  .close-button:hover {
+    background-color: #00cc00; /* Darker green on hover */
+    box-shadow: 0px 10px 25px rgba(0, 255, 0, 0.7); /* Stronger shadow on hover */
+  }
+  
+  .close-button:active {
+    transform: scale(0.95); /* Slight press effect on click */
+  }
+  .document-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* Almost black semi-transparent background */
+    z-index: 999;
+  }
+  
+  .document-detail-content {
+    width: 60%;
+    height: 90%;
+    background-color: #000; /* Black background */
+    border-radius: 20px;
+    padding: 25px;
+    color: #fff; /* White text */
+    overflow-y: auto;
+    position: relative;
+    box-shadow: 0px 10px 30px rgba(0, 255, 0, 0.4); /* Green glow effect */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .document-detail-content:hover {
+    transform: scale(1.03); /* Slight zoom-in on hover */
+    box-shadow: 0px 15px 45px rgba(0, 255, 0, 0.7); /* Stronger green glow on hover */
+  }
+  
+  h2 {
+    color: #00FF00; /* Bright green for the title */
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  
+  .document-image {
+    width: 50%; /* Reduce image size to 50% of the container width */
+    height: auto;
+    border-radius: 15px;
+    margin: 20px 0;
+    box-shadow: 0px 0px 20px rgba(0, 255, 0, 0.3); /* Green glow around image */
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  strong {
+    color: #00FF00; /* Green for labels like "Example", "Overview", etc. */
+  }
+  
+  .close-button {
+    background-color: #00FF00; /* Bright green button */
+    color: #000; /* Black text on the button */
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 5px 15px rgba(0, 255, 0, 0.5); /* Shadow on button */
+  }
+  
+  .close-button:hover {
+    background-color: #00cc00; /* Darker green on hover */
+    box-shadow: 0px 10px 25px rgba(0, 255, 0, 0.7); /* Stronger shadow on hover */
+  }
+
+  
+  .close-button:active {
+    transform: scale(0.95); /* Slight press effect on click */
+  }
+  ul.document-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    /* bo
+    x-shadow: 0px 0px 10px 10px rgba(0,255,0,0.6); */
+}
+/* li.document-item {
+    box-shadow: 0px 10px 10px 10px rgba(0,255,0,0.5);
+} */
+
+li.document-item {
+    box-shadow: 0px 10px 10px 10px rgba(0, 255, 0, 0.5);
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth transition for transform and box-shadow */
+  }
+  
+  li.document-item:active {
+    transform: scale(0.95); /* Scale down slightly when clicked */
+    box-shadow: 0px 5px 5px 5px rgba(0, 255, 0, 0.3); /* Reduced shadow on click to simulate press */
+  }
+  .container {
+    padding: 16px;
+    background-color: black !important;
+    height: 100vh !important;
+}
+.document-list:active {
+    color: black !important;
+}
+/* .document-title:focus {
+    font-weight: 600;
+    color: black;
+} */
+.document-title {
+    font-weight: 600;
+    color: white;
+}
+.document-overview {
+    color: black;
+}
+ul.document-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    color: white;
+}
+.document-header:hover {
+    background-color: black;
+}
+
+.document-overview {
+    color: white;
+    background-color: black;
+}
+
+  @media (max-width: 768px) {
+    .document-detail-content {
+      width: 90%;
+      height: 85%;
+      padding: 15px;
+    }
+  
+    .document-image {
+      width: 80%; /* Reduce image size even more on smaller screens */
+    }
+  }
+  
+  
+  @media (max-width: 768px) {
+    .document-detail-content {
+      width: 90%;
+      height: 85%;
+      padding: 15px;
+    }
+  
+    .document-image {
+      width: 80%; /* Reduce image size even more on smaller screens */
+    }
+  }
+  

@@ -1,0 +1,43 @@
+/* General container */
+.container {
+    padding: 16px;
+  }
+  
+  /* List styles */
+  .document-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .document-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 8px;
+  }
+  
+  /* Document header styles */
+  .document-header {
+    padding: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .document-header:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Title styles */
+  .document-title {
+    font-weight: 600;
+  }
+  
+  /* Overview styles */
+  .document-overview {
+    margin-top: 8px;
+    padding: 8px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+  }
+  
