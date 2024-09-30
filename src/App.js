@@ -6,7 +6,7 @@ import Form from "./Components/AddingSomething";
 import CourseModule from "./Components/CourseModule";
 function App() {
   return <>
-  <CourseModule/>
+    
   </>;
 }
 

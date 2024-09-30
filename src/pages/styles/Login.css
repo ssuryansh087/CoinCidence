@@ -229,7 +229,7 @@ body {
     border: none;
     border-radius: 1rem;
     background-color: green;
-    color: white;
+    color: #0A0908;
     font-size: 2rem;
     transition: 0.3s;
 }
@@ -238,4 +238,5 @@ body {
     background-color: whitesmoke;
     color: #171717;
     cursor: pointer;
+    box-shadow: 0px 0px 30px 10px rgba(0, 255, 0, 0.2);
 }
