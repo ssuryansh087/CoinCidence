@@ -9,7 +9,8 @@ import App from "./App";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import Form from "./pages/Form";
-
+import Memory from "./Components/Memory";
+import Quiz from "./Components/QuizComponent";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const router = createBrowserRouter([
@@ -29,6 +30,14 @@ const router = createBrowserRouter([
     path: "/form",
     element: <Form />,
   },
+  {
+    path:'/memoryGame',
+    element:<Memory/>
+  },
+  {
+    path:'/QuizGame',
+    element:<Quiz/>
+  }
 ]);
 
 root.render(
