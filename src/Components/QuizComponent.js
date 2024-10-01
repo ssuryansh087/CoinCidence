@@ -58,7 +58,7 @@ const Quiz = () => {
         <>
           <div className="question-section">
             <div className="question-number">
-              Question {questions[currentQuestion].numb}
+              Question {questions[currentQuestion].number}
             </div>
             <div className="question-text">
               {questions[currentQuestion].question}

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { db } from '../database/firebaseConfig';
+import  db  from '../database/firebaseConfig';
 import { collection, getDocs } from 'firebase/firestore';
 import './styles/CourseModule.css';
 import DocumentDetail from './DocumentDetail';

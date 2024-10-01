@@ -1,0 +1,67 @@
+* AutoCardSlider.css */
+
+/* Container that holds the auto carousel */
+.auto-slider-container {
+  width: 80%;
+  margin: 30px auto;
+  overflow: hidden; /* Hide the cards that are out of view */
+}
+
+/* Wrapper for sliding effect */
+.auto-slider-wrapper {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Actual slider that moves horizontally */
+.auto-slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out; /* Smooth slide transition */
+}
+
+/* Each card inside the carousel */
+.auto-slider-card {
+  min-width: 300px;
+  max-width: 300px;
+  height: 200px;
+  margin: 10px;
+  background-color: #1e1e1f;
+  color: #00ff00;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 255, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+}
+
+.simple-carousel-container {
+  display: flex;
+  justify-content: center;
+  /* width: 100% !important; */
+  width: 100vw;
+  margin-bottom: 7%;
+}
+button.carousel-button-prev {
+  background-color: transparent;
+  border: unset;
+  color: green;
+  margin-right: 5%;
+  font-size: 700;
+  font-weight: 700;
+  font-size: 24px;
+}
+button.carousel-button-next {
+  background-color: transparent;
+  border: unset;
+  color: green;
+  margin-left: 5%;
+  font-size: 700;
+  font-weight: 700;
+  font-size: 24px;
+}
+.simple-carousel-card {
+  display: flex;
+  justify-content: center;
+  width: 30%;
+  flex-direction: column;
+}

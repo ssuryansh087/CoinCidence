@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { db } from "../database/firebaseConfig";
+import  db  from "../database/firebaseConfig";
 import { setDoc, doc } from "firebase/firestore";
 function Form() {
   const [title, setTitle] = useState();

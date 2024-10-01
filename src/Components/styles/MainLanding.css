@@ -1,0 +1,231 @@
+/* Global Styles */
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #0d0d0d;
+    color: #fff;
+    margin: 0;
+  }
+  
+  .landing-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #121212;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00ff00;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+  
+  .nav-links a {
+    color: #00ff00;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #00cc00;
+  }
+  
+  .launch-btn {
+    background-color: #00ff00;
+    color: #121212;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .launch-btn:hover {
+    background-color: #00cc00;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #121212;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    color: #00ff00;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    color: #999;
+    margin-bottom: 40px;
+  }
+  
+  .launch-app-btn {
+    background-color: #00ff00;
+    color: #121212;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .launch-app-btn:hover {
+    background-color: #00cc00;
+  }
+  
+  /* How to Use Section */
+  .how-to-use {
+    padding: 60px 0;
+    background-color: #0d0d0d;
+  }
+  
+  .how-to-use h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #00ff00;
+    margin-bottom: 40px;
+  }
+  
+  .cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    color: #00ff00;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 255, 0, 0.3);
+  }
+  
+  /* Features Section */
+  
+  .features h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #00ff00;
+    margin-bottom: 40px;
+  }
+  
+  .features .cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Security Section */
+  .security {
+    padding: 60px 0;
+    background-color: #0d0d0d;
+  }
+  
+  .security h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #00ff00;
+    margin-bottom: 40px;
+  }
+  
+  .security-logos {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .logo-item {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    color: #00ff00;
+    font-weight: bold;
+  }
+  
+  /* Community Section */
+  .community {
+    padding: 60px 0;
+    background-color: #121212;
+  }
+  
+  .community h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #00ff00;
+    margin-bottom: 40px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-links a {
+    color: #00ff00;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #00cc00;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #0d0d0d;
+  }
+  
+  .footer p {
+    color: #666;
+    font-size: 16px;
+  }
+  .features {
+    padding: 60px 0;
+    background-color: #121212;
+    margin-top: 20%;
+  }
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 55px;
+  }
+  .features h2 {
+    text-align: center;
+    font-size: 36px;
+    color: #00ff00;
+    margin-bottom: 40px;
+  }
+  
+  .featured {
+    text-align: center;
+    margin-top: 10%;
+  }
