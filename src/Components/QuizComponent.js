@@ -1,7 +1,17 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from "react";
 import "./styles/QuizComponent.css";
 import { doc, getDoc } from "firebase/firestore";
 import db from "../database/firebaseConfig";
+=======
+import React, { useState, useEffect } from 'react';
+import './styles/QuizComponent.css';
+
+const Quiz = () => {
+  const questions = [
+    
+  ];
+>>>>>>> cc917d13c73ca7fd4ede3b31d26bedb183648bc4
 
 const QuizComponent = () => {
   const [questions, setQuestions] = useState([]);
@@ -92,9 +102,13 @@ const QuizComponent = () => {
         <>
           <div className="question-section">
             <div className="question-number">
+<<<<<<< HEAD
               {/* Check if the current question exists */}
               Question{" "}
               {questions[currentQuestion]?.number || currentQuestion + 1}
+=======
+              Question {questions[currentQuestion].number}
+>>>>>>> cc917d13c73ca7fd4ede3b31d26bedb183648bc4
             </div>
             <div className="question-text">
               {questions[currentQuestion]?.question}
