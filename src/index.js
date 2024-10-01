@@ -14,6 +14,7 @@ import Quiz from "./pages/Quiz";
 import Memory from "./Components/Memory";
 import FinancialSpline from "./Components/styles/FinancialSpline";
 import Passageway from "./Components/Hallway";
+import CourseModule from "./Components/CourseModule";
 import Iframe from "./Components/Iframe";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
   {
     path: "/financeSpline",
     element: <FinancialSpline />,
+  },
+  {
+    path: "/courses",
+    element: <CourseModule />,
   },
   {
     path: "/iframe",
