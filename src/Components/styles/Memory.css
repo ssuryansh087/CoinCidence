@@ -6,20 +6,14 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> cc917d13c73ca7fd4ede3b31d26bedb183648bc4
 .game {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> cc917d13c73ca7fd4ede3b31d26bedb183648bc4
 .controls {
     display: flex;
     gap: 20px;
@@ -27,10 +21,7 @@ html {
     align-items: center;
     justify-content: center;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> cc917d13c73ca7fd4ede3b31d26bedb183648bc4
 button {
     background: #654321;
     color: #ffffff;
@@ -43,34 +34,22 @@ button {
     font-weight: bold;
     margin-left: 9rem;
 }
-<<<<<<< HEAD
 
 .disabled {
     color: #757575;
 }
 
-=======
-.disabled {
-    color: #757575;
-}
->>>>>>> cc917d13c73ca7fd4ede3b31d26bedb183648bc4
 .stats {
     color: #FFF;
     font-size: 14pt;
     font-weight: bold;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> cc917d13c73ca7fd4ede3b31d26bedb183648bc4
 .board-container {
     position: relative;
 
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> cc917d13c73ca7fd4ede3b31d26bedb183648bc4
 .board,
 .win {
     border-radius: 5px;
@@ -81,10 +60,7 @@ button {
     backface-visibility: hidden;
     border: 1px solid #71140b !important;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> cc917d13c73ca7fd4ede3b31d26bedb183648bc4
 .board {
     padding: 20px;
     display: grid;
@@ -93,7 +69,6 @@ button {
 
 
 }
-<<<<<<< HEAD
 
 .board-container.flipped .board {
     transform: rotateY(180deg) rotateZ(50deg);
@@ -103,24 +78,13 @@ button {
     transform: rotateY(0) rotateZ(0);
 }
 
-=======
-.board-container.flipped .board {
-    transform: rotateY(180deg) rotateZ(50deg);
-}
-.board-container.flipped .win {
-    transform: rotateY(0) rotateZ(0);
-}
->>>>>>> cc917d13c73ca7fd4ede3b31d26bedb183648bc4
 .card {
     position: relative;
     width: 150px;
     height: 150px;
     cursor: pointer;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> cc917d13c73ca7fd4ede3b31d26bedb183648bc4
 .card-front,
 .card-back {
     position: absolute;
@@ -132,10 +96,7 @@ button {
     backface-visibility: hidden;
     overflow: auto;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> cc917d13c73ca7fd4ede3b31d26bedb183648bc4
 .card-back {
     position: relative;
     transform: rotateY(180deg) rotateZ(50deg);
@@ -151,22 +112,15 @@ button {
     align-items: center;
     justify-content: center;
 
-<<<<<<< HEAD
 
 }
 
 .card-text {
-=======
- 
-}
-.card-text{
->>>>>>> cc917d13c73ca7fd4ede3b31d26bedb183648bc4
     position: absolute;
     height: 100%;
     width: 100%;
 
 }
-<<<<<<< HEAD
 
 .card.flipped .card-front {
     transform: rotateY(180deg) rotateZ(50deg);
@@ -176,14 +130,6 @@ button {
     transform: rotateY(0) rotateZ(0);
 }
 
-=======
-.card.flipped .card-front {
-    transform: rotateY(180deg) rotateZ(50deg);
-}
-.card.flipped .card-back {
-    transform: rotateY(0) rotateZ(0);
-}
->>>>>>> cc917d13c73ca7fd4ede3b31d26bedb183648bc4
 .win {
     position: absolute;
     top: 0;
@@ -194,10 +140,7 @@ button {
     background: #FDF8E6;
     transform: rotateY(180deg) rotateZ(50deg);
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> cc917d13c73ca7fd4ede3b31d26bedb183648bc4
 .win-text {
     position: absolute;
     top: 50%;
@@ -206,10 +149,7 @@ button {
     font-size: 21pt;
     color: #282A3A;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> cc917d13c73ca7fd4ede3b31d26bedb183648bc4
 .highlight {
     color: #7303c0;
 }

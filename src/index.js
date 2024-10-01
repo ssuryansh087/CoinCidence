@@ -12,7 +12,9 @@ import Form from "./pages/Form";
 import RPG from "./pages/RPG";
 import Quiz from "./pages/Quiz";
 import Memory from "./Components/Memory";
-
+import FinancialSpline from "./Components/styles/FinancialSpline";
+import Passageway from "./Components/Hallway";
+import Iframe from "./Components/Iframe";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const router = createBrowserRouter([
@@ -43,6 +45,14 @@ const router = createBrowserRouter([
   {
     path: "/memory",
     element: <Memory />,
+  },
+  {
+    path: "/financeSpline",
+    element: <FinancialSpline />,
+  },
+  {
+    path: "/iframe",
+    element: <Iframe />,
   },
 ]);
 
