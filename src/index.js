@@ -9,6 +9,9 @@ import App from "./App";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
 import Form from "./pages/Form";
+import RPG from "./pages/RPG";
+import Quiz from "./pages/Quiz";
+import Memory from "./Components/Memory";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -28,6 +31,18 @@ const router = createBrowserRouter([
   {
     path: "/form",
     element: <Form />,
+  },
+  {
+    path: "/rpg",
+    element: <RPG />,
+  },
+  {
+    path: "/quiz",
+    element: <Quiz />,
+  },
+  {
+    path: "/memory",
+    element: <Memory />,
   },
 ]);
 
